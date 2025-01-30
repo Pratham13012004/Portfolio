@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://github.com/teleporthq/date-time-primitive/blob/main/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="desktop1-container">
+        <div class="desktop1-desktop1">
+          <div class="desktop1-navbar">
+            <div class="desktop1-group1">
+              <a href="#Container" class="desktop1-text10">ABOUT</a>
+              <a href="#Service" class="desktop1-text11">WHAT I DO</a>
+              <a href="#Portfolio" class="desktop1-text12">WORK</a>
+              <a href="#Component2" class="desktop1-text13">CONTACT</a>
+            </div>
+            <span class="desktop1-text14">PRATHAM_</span>
+          </div>
+          <div class="desktop1-group8">
+            <img
+              alt="Ellipse2118"
+              src="public/external/ellipse2118-3twb-1400h.png"
+              class="desktop1-ellipse21"
+            />
+            <img
+              alt="Ellipse2118"
+              src="public/external/ellipse2118-3twb-1400h.png"
+              class="desktop1-ellipse22"
+            />
+            <container-wrapper class="container-wrapper">
+              <!--Container component-->
+              <div id="Container" class="container-container">
+                <div class="container-content">
+                  <span class="container-text1">
+                    <fragment class="desktop1-fragment10">
+                      <span class="desktop1-text15">ABOUT ME</span>
+                    </fragment>
+                  </span>
+                  <span class="container-text2">
+                    <fragment class="desktop1-fragment11">
+                      <span class="desktop1-text16">I’m Pratham Kumar</span>
+                    </fragment>
+                  </span>
+                  <span class="container-text3">
+                    <fragment class="desktop1-fragment12">
+                      <span class="desktop1-text17">
+                        Hello everyone ,My name is Pratham Kumar, I am 20 years
+                        old college student. I am a web developer, graphic
+                        designer, artist and a student from Lucknow currently
+                        and i am perusing CSE ,studying in Kalinga institute of
+                        industrial technology(KIIT university) .
+                      </span>
+                    </fragment>
+                  </span>
+                </div>
+                <img
+                  alt="image"
+                  src="public/external/ellipse%203-800h.png"
+                  class="container-image2"
+                />
+              </div>
+            </container-wrapper>
+          </div>
+          <service-wrapper
+            class="service-wrapper"
+            rootclassname="serviceundefined"
+          >
+            <!--Service component-->
+            <div id="Service" class="service-service serviceroot-class-name">
+              <span class="service-text10">
+                <fragment class="desktop1-fragment13">
+                  <span class="desktop1-text18">WHAT I DO</span>
+                </fragment>
+              </span>
+              <span class="service-text11">
+                <fragment class="desktop1-fragment14">
+                  <span class="desktop1-text19">SPECIALIZING IN</span>
+                </fragment>
+              </span>
+              <div class="service-card11">
+                <div class="service-group6">
+                  <div class="service-frame1">
+                    <img
+                      alt="webdevelopment1139"
+                      src="public/external/webdevelopment1139-pkc-200h.png"
+                      class="service-webdevelopment1"
+                    />
+                  </div>
+                  <span class="service-text12">
+                    <fragment class="desktop1-fragment20">
+                      <span class="desktop1-text25">Front-end Development</span>
+                    </fragment>
+                  </span>
+                </div>
+                <span class="service-text13">
+                  <fragment class="desktop1-fragment15">
+                    <span class="desktop1-text20">
+                      I have experience of 2 years in front-end development area
+                      as I have work as a intern in this field
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+              <div class="service-card12">
+                <span class="service-text14">
+                  <fragment class="desktop1-fragment16">
+                    <span class="desktop1-text21">
+                      I am relatively new in this sector , but i have learned
+                      majority of the skills needed in this area
+                    </span>
+                  </fragment>
+                </span>
+                <div class="service-group71">
+                  <span class="service-text15">
+                    <fragment class="desktop1-fragment21">
+                      <span class="desktop1-text26">UI/UX Designer</span>
+                    </fragment>
+                  </span>
+                  <div class="service-frame21">
+                    <img
+                      alt="uidesign1148"
+                      src="public/external/uidesign1148-unpu-200h.png"
+                      class="service-uidesign1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="service-card13">
+                <img
+                  alt="Rectangle2150"
+                  src="public/external/rectangle2150-ykhd-300h.png"
+                  class="service-rectangle2"
+                />
+                <span class="service-text16">
+                  <fragment class="desktop1-fragment17">
+                    <span class="desktop1-text22">
+                      As the interest in 3d modelling grew this field of area
+                      also opened up for me and I can say that I am confident in
+                      my skills as i have work as a graphic designer in my
+                      college societies.
+                    </span>
+                  </fragment>
+                </span>
+                <div class="service-group72">
+                  <span class="service-text17">
+                    <fragment class="desktop1-fragment22">
+                      <span class="desktop1-text27">Graphic Designing</span>
+                    </fragment>
+                  </span>
+                  <div class="service-frame22">
+                    <img
+                      alt="ps1155"
+                      src="public/external/ps1155-ql7g-200h.png"
+                      class="service-ps1"
+                    />
+                  </div>
+                </div>
+                <div class="service-card14">
+                  <span class="service-text18">
+                    <fragment class="desktop1-fragment23">
+                      <span class="desktop1-text28">
+                        this i one of the important skills i have learned in my
+                        college as this become the backbone of any coding
+                        language needed in the future
+                      </span>
+                    </fragment>
+                  </span>
+                  <div class="service-group73">
+                    <span class="service-text19">
+                      <fragment class="desktop1-fragment26">
+                        <span class="desktop1-text31">C</span>
+                      </fragment>
+                    </span>
+                    <div class="service-frame23">
+                      <img
+                        alt="c162"
+                        src="public/external/c162-w4oi-200w.png"
+                        class="service-c"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-card15">
+                <span class="service-text20">
+                  <fragment class="desktop1-fragment18">
+                    <span class="desktop1-text23">
+                      I have 3-4 yr experience in creating 3d models and
+                      animation and i can say that this is the most enjoyable
+                      work for me
+                    </span>
+                  </fragment>
+                </span>
+                <div class="service-group74">
+                  <span class="service-text21">
+                    <fragment class="desktop1-fragment24">
+                      <span class="desktop1-text29">
+                        3D modeling &amp; animations
+                      </span>
+                    </fragment>
+                  </span>
+                  <div class="service-frame24">
+                    <img
+                      alt="blender1169"
+                      src="public/external/blender1169-kkrq-200h.png"
+                      class="service-blender1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="service-card16">
+                <span class="service-text22">
+                  <fragment class="desktop1-fragment19">
+                    <span class="desktop1-text24">
+                      this i one of the important skills i have learned in my
+                      college as this become the backbone of any coding language
+                      needed in the future
+                    </span>
+                  </fragment>
+                </span>
+                <div class="service-group75">
+                  <span class="service-text23">
+                    <fragment class="desktop1-fragment25">
+                      <span class="desktop1-text30">Java</span>
+                    </fragment>
+                  </span>
+                  <div class="service-frame25">
+                    <img
+                      alt="java176"
+                      src="public/external/java176-vavl-200w.png"
+                      class="service-java"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </service-wrapper>
+          <portfolio-wrapper
+            class="portfolio-wrapper"
+            rootclassname="portfolioundefined"
+          >
+            <!--Portfolio component-->
+            <div
+              id="Portfolio"
+              class="portfolio-portfolio1 portfolioroot-class-name"
+            >
+              <div class="portfolio-portfolio2">
+                <div class="portfolio-card1">
+                  <img
+                    alt="Rectangle11283"
+                    src="public/external/rectangle11283-fm4f-200h.png"
+                    class="portfolio-rectangle111"
+                  />
+                  <span class="portfolio-text10">
+                    <fragment class="desktop1-fragment29">
+                      <span class="desktop1-text34">WEB page</span>
+                    </fragment>
+                  </span>
+                  <img
+                    alt="image285"
+                    src="public/external/image285-79s-300h.png"
+                    class="portfolio-image"
+                  />
+                  <a
+                    href="https://drive.google.com/drive/folders/1n4wFbcL9rWB9FNI0aAA33QLP7XlogKD5?usp=sharinghttps://drive.google.com/drive/folders/1n4wFbcL9rWB9FNI0aAA33QLP7XlogKD5?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfolio-link1"
+                  >
+                    <div class="portfolio-frame31">
+                      <span class="portfolio-text11">
+                        <fragment class="desktop1-fragment32">
+                          <span class="desktop1-text37">View</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-card2">
+                  <img
+                    alt="Rectangle11289"
+                    src="public/external/rectangle11289-sg7-200h.png"
+                    class="portfolio-rectangle112"
+                  />
+                  <span class="portfolio-text12">
+                    <fragment class="desktop1-fragment30">
+                      <span class="desktop1-text35">3d models and img.</span>
+                    </fragment>
+                  </span>
+                  <img
+                    alt="untitled11291"
+                    src="public/external/untitled11291-p5nd-300h.png"
+                    class="portfolio-untitled11"
+                  />
+                  <a
+                    href="https://drive.google.com/drive/folders/1ElF2KjbC9kgXJJFKZS7yXrLmF67BLdAn?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfolio-link2"
+                  >
+                    <div class="portfolio-frame32">
+                      <span class="portfolio-text13">
+                        <fragment class="desktop1-fragment33">
+                          <span class="desktop1-text38">View</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-card3">
+                  <img
+                    alt="Rectangle11295"
+                    src="public/external/rectangle11295-6sgl-200h.png"
+                    class="portfolio-rectangle113"
+                  />
+                  <span class="portfolio-text14">
+                    <fragment class="desktop1-fragment31">
+                      <span class="desktop1-text36">
+                        Graphic designing- Illustrations
+                      </span>
+                    </fragment>
+                  </span>
+                  <a
+                    href="https://drive.google.com/drive/folders/1NHg6Ae-9r2t25ski9i6I5aIwG9XeArRx?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfolio-link3"
+                  >
+                    <div class="portfolio-frame33">
+                      <span class="portfolio-text15">
+                        <fragment class="desktop1-fragment34">
+                          <span class="desktop1-text39">View</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </a>
+                  <img
+                    alt="draw11299"
+                    src="public/external/draw11299-61os-300h.png"
+                    class="portfolio-draw11"
+                  />
+                </div>
+              </div>
+              <span class="portfolio-text16">
+                <fragment class="desktop1-fragment27">
+                  <span class="desktop1-text32">PORTFOLIO</span>
+                </fragment>
+              </span>
+              <span class="portfolio-text17">
+                <fragment class="desktop1-fragment28">
+                  <span class="desktop1-text33">SOME OF MY WORKS</span>
+                </fragment>
+              </span>
+            </div>
+          </portfolio-wrapper>
+          <img
+            alt="Ellipse1117"
+            src="public/external/ellipse1117-fjf-400w.png"
+            class="desktop1-ellipse1"
+          />
+          <img
+            alt="Ellipse2118"
+            src="public/external/ellipse2118-3twb-1400h.png"
+            class="desktop1-ellipse23"
+          />
+          <component2-wrapper
+            class="component2-wrapper"
+            rootclassname="component2undefined"
+          >
+            <!--Component2 component-->
+            <div
+              id="Component2"
+              class="component2-container component2root-class-name"
+            >
+              <div class="component2-cta">
+                <div class="component2-socmed">
+                  <a
+                    href="https://github.com/Pratham13012004"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="component2-link1"
+                  >
+                    <div class="component2-akariconsgithubfill">
+                      <div class="component2-group1">
+                        <img
+                          alt="VectorI213"
+                          src="public/external/vectori213-jtl.svg"
+                          class="component2-vector1"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="www.linkedin.com/in/pratham-kumar-79954b292"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="component2-link2"
+                  >
+                    <div class="component2-bxbxlfacebook">
+                      <img
+                        alt="LinkedinI213"
+                        src="public/external/linkedini213-9sb1.svg"
+                        class="component2-linkedin"
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/_pratham__k__/?igsh=ZmxrMHdjcHd3YXky#"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="component2-link3"
+                  >
+                    <div class="component2-akariconsinstagramfill">
+                      <div class="component2-group2">
+                        <img
+                          alt="VectorI213"
+                          src="public/external/vectori213-filr.svg"
+                          class="component2-vector2"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <span class="component2-text1">
+                  <fragment class="desktop1-fragment35">
+                    <span class="desktop1-text40">
+                      Have any thing in mind ?
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+              <div class="component2-footer">
+                <span class="component2-text2">
+                  <fragment class="desktop1-fragment36">
+                    <span class="desktop1-text41">
+                      COPYRIGHT © 2024 PRATHAM.
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+              <span>
+                <date-time-primitive
+                  format="DD/MM/YYYY"
+                  date="Thu Jan 30 2025 19:27:02 GMT+0530 (India Standard Time)"
+                ></date-time-primitive>
+              </span>
+            </div>
+          </component2-wrapper>
+          <img
+            alt="image"
+            src="public/external/ellipse%203-1500w.png"
+            loading="lazy"
+            class="desktop1-image"
+          />
+        </div>
+        <app-component-wrapper
+          class="app-component-wrapper"
+          rootclassname="app-componentundefined"
+        >
+          <!--AppComponent component-->
+          <div class="app-component-container app-componentroot-class-name">
+            <span class="app-component-text1">
+              <fragment class="desktop1-fragment37">
+                <span class="desktop1-text42">PRATHAM KUMAR</span>
+              </fragment>
+            </span>
+            <span class="app-component-text2">
+              <fragment class="desktop1-fragment38">
+                <span class="desktop1-text43">
+                  Front-End Development - UI/UX Designer- Graphic designer -3d
+                  modeling
+                </span>
+              </fragment>
+            </span>
+          </div>
+        </app-component-wrapper>
+      </div>
+    </div>
+  </body>
+</html>

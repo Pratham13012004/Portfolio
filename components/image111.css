@@ -1,0 +1,12 @@
+.image111-container {
+  display: flex;
+  position: relative;
+}
+ 
+.image111image111 {
+  width: 528px;
+  height: 474px;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}

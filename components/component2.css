@@ -1,0 +1,191 @@
+.component2-container {
+  width: 1440px;
+  height: 742px;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+}
+ 
+.component2-cta {
+  top: 0px;
+  left: 169px;
+  width: 1080px;
+  height: 382px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(69, 69, 69, 1);
+}
+ 
+.component2-socmed {
+  top: 273px;
+  left: 452px;
+  width: 175px;
+  height: 43.40792465209961px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.component2-link1 {
+  display: contents;
+}
+ 
+.component2-akariconsgithubfill {
+  gap: 10px;
+  top: 0px;
+  left: 131px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 31px;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, 1);
+}
+ 
+.component2-group1 {
+  width: 24px;
+  height: 23.40792465209961px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.component2-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.component2-link2 {
+  display: contents;
+}
+ 
+.component2-bxbxlfacebook {
+  gap: 10px;
+  top: 1px;
+  left: 66px;
+  width: 41px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 39px;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 1);
+}
+ 
+.component2-linkedin {
+  width: 26px;
+  height: 26px;
+}
+ 
+.component2-link3 {
+  display: contents;
+}
+ 
+.component2-akariconsinstagramfill {
+  gap: 10px;
+  top: 1px;
+  left: 0px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 1);
+}
+ 
+.component2-group2 {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.component2-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+ 
+.component2-text1 {
+  top: 112px;
+  left: 342px;
+  color: rgba(255, 255, 255, 1);
+  width: 407px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.component2-footer {
+  left: 0px;
+  width: 1440px;
+  bottom: 0px;
+  height: 156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+ 
+.component2-text2 {
+  top: 78px;
+  left: 600px;
+  color: rgba(30, 30, 30, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.component2-fragment1 {
+  display: contents;
+}
+ 
+.component2-text3 {
+  display: inline-block;
+}
+ 
+.component2-fragment2 {
+  display: contents;
+}
+ 
+.component2-text4 {
+  display: inline-block;
+}
+ 
+.component2root-class-name {
+  right: 0px;
+  bottom: -8px;
+  position: absolute;
+}

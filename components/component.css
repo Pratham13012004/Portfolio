@@ -1,0 +1,64 @@
+.component-container {
+  width: 1305px;
+  height: 244px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.component-text1 {
+  top: 0px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 1305px;
+  height: auto;
+  position: absolute;
+  font-size: 170px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Italiana;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.component-text2 {
+  left: 240px;
+  color: rgba(255, 255, 255, 1);
+  width: 933px;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.component-fragment1 {
+  display: contents;
+}
+ 
+.component-text3 {
+  display: inline-block;
+}
+ 
+.component-fragment2 {
+  display: contents;
+}
+ 
+.component-text4 {
+  display: inline-block;
+}
+ 
+.componentroot-class-name {
+  top: 428px;
+  left: 150x;
+  position: absolute;
+}
